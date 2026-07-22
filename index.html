@@ -1,19 +1,100 @@
 <!DOCTYPE html>
 <html lang="ms">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CikguMate AI</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CikguMate AI</title>
+
+<style>
+body{
+    font-family:Arial,sans-serif;
+    background:#f2f7f5;
+    margin:0;
+    padding:20px;
+}
+
+.container{
+    max-width:500px;
+    margin:auto;
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 0 10px rgba(0,0,0,0.15);
+}
+
+h1{
+    text-align:center;
+    color:#0b7d65;
+}
+
+p{
+    text-align:center;
+    color:#555;
+}
+
+label{
+    font-weight:bold;
+}
+
+input,select{
+    width:100%;
+    padding:10px;
+    margin-top:8px;
+    margin-bottom:18px;
+    border-radius:8px;
+    border:1px solid #ccc;
+    box-sizing:border-box;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    margin-bottom:10px;
+    background:#0b7d65;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+}
+</style>
+
 </head>
-<body style="font-family:Arial; text-align:center; margin-top:80px;">
+
+<body>
+
+<div class="container">
 
 <h1>🎓 CikguMate AI</h1>
 
-<h3>AI Tools for Preschool Teachers</h3>
+<p>Pembantu AI Guru Prasekolah</p>
 
-<p>Jana BBM, Lembaran Kerja, Cerita, Lagu dan PowerPoint.</p>
+<label>Umur Murid</label>
 
-<button>🚀 Coming Soon</button>
+<select>
+<option>4 Tahun</option>
+<option>5 Tahun</option>
+<option>6 Tahun</option>
+</select>
+
+<label>Tema</label>
+
+<input type="text" placeholder="Contoh: Haiwan">
+
+<label>Subtema</label>
+
+<input type="text" placeholder="Contoh: Haiwan Ladang">
+
+<button>📚 Jana BBM</button>
+
+<button>📄 Jana Lembaran Kerja</button>
+
+<button>📖 Jana Cerita</button>
+
+<button>🎵 Jana Lagu</button>
+
+<button>🖥️ Jana PowerPoint</button>
+
+</div>
 
 </body>
 </html>
